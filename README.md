@@ -106,18 +106,6 @@ POST /api/auth/login
 | PATCH | `/api/movies/{id}/rating` | User+ | Обновить только рейтинг |
 | DELETE | `/api/movies/{id}` | Admin | Удалить (CASCADE) |
 
----
-
-## Тестирование через HTTP-клиент
-
-Файл `requests.http` содержит 25 готовых запросов.
-
-- **VS Code**: установи расширение [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
-- **JetBrains Rider / IDEA**: встроенная поддержка `.http` файлов
-
-Логин сделан с `# @name login`, токен автоматически подставляется в следующие запросы через `{{adminToken}}`.
-
----
 
 ## Тестовые данные (seed)
 
