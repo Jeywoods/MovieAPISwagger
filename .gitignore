@@ -1,0 +1,17 @@
+.vs/
+bin/
+obj/
+
+*.db
+*.sqlite
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+
+.idea/
+.vscode/
+
+secrets.json
+appsettings.Development.json
